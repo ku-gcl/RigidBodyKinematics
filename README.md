@@ -18,7 +18,7 @@ EPとは，Euler parameterの略で，Quaternionの別名である．
 q = Euler3212EP([roll pitch yaw])   % 4x1
 ```
 
-とすると，クォーターニオンが得られる．
+とすると，クォーターニオンが得られる．引数の角度は，degではなく，**rad**で与えること．
 
 ここで，クォーターニオンは
 `q = q0 + q1i + q2j + q3k`
