@@ -1,6 +1,6 @@
 function e = EP2Euler321_multi(q)
 
-% EP2Euler321
+% EP2Euler321_multi
 %
 %	E = EP2Euler321(Q) translates the Euler parameter vector
 %	Q into the corresponding (3-2-1) Euler angle set.
