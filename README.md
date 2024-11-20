@@ -27,7 +27,7 @@ q = Euler3212EP([roll pitch yaw])   % 4x1
 また，以下のようにすれば，Euler -> Quaternion -> Eulerの一連の変換を行うことができる．
 
 ```
-EP2Euler123(Euler3212EP([1 1.5 2.0])) % -> [1 1.5 2.0]が出力される
+EP2Euler321(Euler3212EP([1 1.5 2.0])) % -> [1 1.5 2.0]が出力される
 ```
 
 
